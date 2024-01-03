@@ -1,0 +1,33 @@
+// navbar.component.scss
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  
+    .nav-list {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+  
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  
