@@ -4,16 +4,21 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
     declarations: [
       // Add other components used in your application
       AppComponent,
-      NavbarComponent
+      NavbarComponent,
+      HomeComponent
     ],
     imports: [
       BrowserModule,
-      AppRoutingModule // Include your routing module
+      RouterModule,
+      AppRoutingModule, // Include your routing module
+      CarouselModule.forRoot(),
       // Add other modules (FormsModule, HttpClientModule, etc.) as needed
     ],
     providers: [],

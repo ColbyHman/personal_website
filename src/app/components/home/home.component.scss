@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6c6c6c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .about-me, .projects {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,30 @@
+<!-- project-template.component.html -->
+
+<div class="project-container">
+  <h1>{{ project.title }}</h1>
+
+  <p class="project-tagline">{{ project.tagline }}</p>
+  <!-- Photo Carousel (you can use a carousel library or build a simple one) -->
+  <div class="col-md-6 carousel">
+    <div *ngIf="project?.images" style="width: 500px; height: 500px;">
+      <carousel>
+        <slide  *ngFor="let image of project?.images" class="mx-auto carousel-item">
+          <img [src]="image" alt="Slide" style="display: block; width: 100%;">
+        </slide>
+      </carousel>
+    </div>
+  </div>
+    <!-- Project Description -->
+
+    <br/>
+    <div class="technologies-section">
+      <h3>Technologies Used:</h3>
+      <ul>
+        <li *ngFor="let technology of project.technologies">{{ technology }}</li>
+      </ul>
+    </div>
+    <p class="project-description" >{{ project.description }}</p>
+
+
+  
+    

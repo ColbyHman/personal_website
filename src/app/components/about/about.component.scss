@@ -1,0 +1,116 @@
+// about-page.component.scss
+
+.about-section {
+    width: 100%;
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 20px auto; /* Center the section and provide top and bottom margin */
+    padding: 20px; /* Add 20px padding on all sides */
+    background-color: #f1f1f1; /* Lighter grey background color */
+    border-radius: 10px;
+    text-align: center; /* Center align the text content */
+    display: flex;
+    justify-content: space-between;
+  
+    .content {
+      width: 60%; /* Adjust the width of the text content as needed */
+      max-width: 500px; /* Adjust the max-width of the content as needed */
+      text-align: left;
+    }
+  
+    .profile-image {
+      width: 30%;
+      max-width: 300px; /* Adjust the max-width of the image as needed */
+      border-radius: 8px;
+      margin-top: 20px; /* Add some top margin for spacing */
+    }
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #3498db; /* Blue heading color */
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+  
+        &:before {
+          content: '\2022';
+          color: #e67e22; /* Orange bullet point color */
+          font-size: 16px;
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+  }
+
+.skills-section,
+.experience-section {
+  width: 100%;
+  max-width: 1000px; /* Adjust the max-width as needed */
+  margin: 20px auto; /* Center the sections and provide top and bottom margin */
+  padding: 20px; /* Add 20px padding on all sides */
+  background-color: #f1f1f1; /* Lighter grey background color */
+  border-radius: 10px;
+  text-align: center; /* Center align the text content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .content {
+    width: 100%; /* Make the content take full width */
+    max-width: 500px; /* Adjust the max-width of the content as needed */
+    text-align: left;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width of the image as needed */
+    border-radius: 8px;
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db; /* Blue heading color */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+
+      &:before {
+        content: '\2022';
+        color: #e67e22; /* Orange bullet point color */
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+}
+
+  
+  

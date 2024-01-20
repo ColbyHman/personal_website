@@ -7,7 +7,17 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   // Add any logic or properties if needed
+  showDropdownOne = false;
+  showDropdownTwo = false;
+
   constructor() {
     console.log('NavbarComponent created');
+  }
+
+  toggleDropdownOne() {
+    this.showDropdownOne = !this.showDropdownOne;
+  }
+  toggleDropdownTwo() {
+    this.showDropdownTwo = !this.showDropdownTwo;
   }
 }
