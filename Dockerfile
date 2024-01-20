@@ -5,7 +5,7 @@ FROM nginx:latest
 RUN rm -rf /etc/nginx/conf.d/default.conf
 
 # Copy the Angular app files to the NGINX html directory
-COPY dist/ /usr/share/nginx/html
+COPY  dist/personal_website/browser/ /usr/share/nginx/html
 
 # Copy NGINX configuration file
 COPY nginx.conf /etc/nginx/conf.d/
