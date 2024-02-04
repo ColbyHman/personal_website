@@ -8,4 +8,4 @@ services:
     user: root
     ports:
       - 80:8080
-  container_name: personal_site
+    container_name: personal_site
