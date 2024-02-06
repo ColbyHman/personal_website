@@ -3,10 +3,11 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color:#FCECC9;
   }
   
   header {
-    background-color: #6c6c6c;
+    background-color: #8F5B5B;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -17,12 +18,26 @@ body {
   }
   
   .about-me, .projects {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 75%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    color: #18181E;
+    a {
+      color: #4062BB;
+    }
   }
+
+  mat-card {
+    background-color: #fff;
+    width: 75%;
+    padding: 25px;
+  }
+
+
   
   footer {
-    background-color: #333;
+    background-color: #453D34;
     color: #fff;
     text-align: center;
     padding: 10px;
