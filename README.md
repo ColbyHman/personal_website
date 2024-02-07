@@ -1,3 +1,5 @@
+[![Build Status](https://jenkins.colbyahillman.com/job/Personal%20Website/badge/icon?style=flat-square)](https://jenkins.colbyahillman.com/job/Personal%20Website/)
+
 # PersonalWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
