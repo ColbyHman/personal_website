@@ -1,4 +1,4 @@
-[![Build Status](https://jenkins.colbyahillman.com/buildStatus/icon?job=Personal+Website?style=flat-square)](https://jenkins.colbyahillman.com/job/Personal%20Website/)
+[![Build Status](https://jenkins.colbyahillman.com/job/Personal%20Website/badge/icon?style=flat-square)](https://jenkins.colbyahillman.com/job/Personal%20Website/)
 
 # Portfolio Website
 
