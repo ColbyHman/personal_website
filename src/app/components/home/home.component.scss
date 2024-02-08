@@ -7,14 +7,21 @@ body {
   }
   
   header {
-    background-color: #8F5B5B;
+    background-color: #445098;
     color: #fff;
     text-align: center;
     padding: 20px;
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
   }
   
   h1 {
     margin: 0;
+  }
+
+  h2, h3 {
+    color: #8d9ec6;
   }
   
   .about-me, .projects {

@@ -1,12 +1,17 @@
 // navbar.component.scss
 
 .navbar {
-    background-color: #453D34;
+    background-color: #0c1446;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: sticky;
+    z-index: 999;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
   
     .nav-list {
       list-style: none;
@@ -45,7 +50,7 @@
         display: block;
         padding: 10px;
         text-decoration: none;
-        color: #333;
+        color: #6f7494;
       }
     }
 
@@ -68,7 +73,7 @@
         display: block;
         padding: 10px;
         text-decoration: none;
-        color: #333;
+        color: #484d69;
       }
     }
 
