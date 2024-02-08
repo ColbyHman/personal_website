@@ -50,6 +50,12 @@ export class ProjectService {
       tagline: 'There\'s always something to do...',
       description: 'While Home Improvement is not really "fun" so to speak, I\'ve taken pride in the things I have learned to do. My home was given to me after my mom passed away and I have taken it upon myself to fix things up as much as I can. Projects include installing a whole house water filtration system with a softener, running network cables to my office and my wife\'s office, replacing old outdated outlets, replacing faucets and drain asemblies, and other general projects to keep the house up to date.',
     },
+    'dnd-5e': {
+      title: 'Dungeons and Dragons 5e Quick Reference',
+      tagline: 'I cast self-host!',
+      description: 'I\'m currently in a campaign with some friends that we meet weekly for over Discord. We use a quick reference site for actions and it has been very useful. However, I noticed that it does not support Dark Mode. I also noticed it was hosted on GitHub pages. So, I did what any normal software engineer would do. I forked it! One hour later, I was self hosting this site which had not been updated in about 5 years that can now be modified on a whim if we want to add "homebrew" actions.',
+      technologies: ['HTML/CSS', 'JavaScript', 'Docker', 'Jenkins']
+    }
   };
 
   getProjectDetails(projectId: string): Project {
