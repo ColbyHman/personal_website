@@ -55,6 +55,12 @@ export class ProjectService {
       tagline: 'I cast self-host!',
       description: 'I\'m currently in a campaign with some friends that we meet weekly for over Discord. We use a quick reference site for actions and it has been very useful. However, I noticed that it does not support Dark Mode. I also noticed it was hosted on GitHub pages. So, I did what any normal software engineer would do. I forked it! One hour later, I was self hosting this site which had not been updated in about 5 years that can now be modified on a whim if we want to add "homebrew" actions.',
       technologies: ['HTML/CSS', 'JavaScript', 'Docker', 'Jenkins']
+    },
+    'persian-parade': {
+      title: 'Persian Parade Website',
+      tagline: 'A grand time for all!',
+      description: 'My in-laws were born and raised in Iran. Since 2004, my father-in-law has helped lead the NYC Persian Parade and I\'ve been given the responsibility of maintaining their website. I took on this task with great passion because I could tell it needed a lot of TLC',
+      technologies: ['HTML/CSS', 'JavaScript', 'Wordpress']
     }
   };
 
