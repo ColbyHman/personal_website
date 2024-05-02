@@ -2,8 +2,8 @@
 
 <div class="project-container">
   <h1>{{ project.title }}</h1>
-
-  <p class="project-tagline">{{ project.tagline }}</p>
+  <h2 class="project-tagline">{{ project.tagline }}</h2>
+  
   <!-- Photo Carousel (you can use a carousel library or build a simple one) -->
   <div class="col-md-6 carousel">
     <div *ngIf="project?.images" style="width: 500px; height: 500px;">
@@ -14,17 +14,18 @@
       </carousel>
     </div>
   </div>
-    <!-- Project Description -->
-
-    <br/>
-    <div class="technologies-section">
-      <h3>Technologies Used:</h3>
-      <ul>
-        <li *ngFor="let technology of project.technologies">{{ technology }}</li>
-      </ul>
-    </div>
-    <p class="project-description" >{{ project.description }}</p>
-
-
+  <!-- Project Description -->
+  
+  <br/>
+  <div class="technologies-section">
+    <h3>Technologies Used:</h3>
+    <ul>
+      <li *ngFor="let technology of project.technologies">{{ technology }}</li>
+    </ul>
+  </div>
+  <p class="project-description" >{{ project.description }}</p>
+  
+  <a *ngIf="project?.url" href="{{ project.url }}" target="_blank">Click here to see this project live!</a>
+  
   
     

@@ -38,6 +38,7 @@ export class ProjectService {
       tagline: 'A backup of regulations.gov!',
       description: 'This was my senior Capstone class project where we were tasked with downloading all of the documents from regulation.gov - an undertaking that is much more difficult than it sounded. We utilized Python for our frontend and backend - Flask served our web interface and we used Python to create "workers" to download all of their documents with the limited API calls per key we had.',
       technologies: ['Python', 'Jenkins', 'Vagrant'],
+      url: "http://capstone.cs.moravian.edu/"
     },
     '3d-printing': {
       title: '3D Printing',
@@ -54,13 +55,15 @@ export class ProjectService {
       title: 'Dungeons and Dragons 5e Quick Reference',
       tagline: 'I cast self-host!',
       description: 'I\'m currently in a campaign with some friends that we meet weekly for over Discord. We use a quick reference site for actions and it has been very useful. However, I noticed that it does not support Dark Mode. I also noticed it was hosted on GitHub pages. So, I did what any normal software engineer would do. I forked it! One hour later, I was self hosting this site which had not been updated in about 5 years that can now be modified on a whim if we want to add "homebrew" actions.',
-      technologies: ['HTML/CSS', 'JavaScript', 'Docker', 'Jenkins']
+      technologies: ['HTML/CSS', 'JavaScript', 'Docker', 'Jenkins'],
+      url: "https://dnd5e.colbyahillman.com/"
     },
     'persian-parade': {
       title: 'Persian Parade Website',
       tagline: 'A grand time for all!',
       description: 'My in-laws were born and raised in Iran. Since 2004, my father-in-law has helped lead the NYC Persian Parade and I\'ve been given the responsibility of maintaining their website. I took on this task with great passion because I could tell it needed a lot of TLC',
-      technologies: ['HTML/CSS', 'JavaScript', 'Wordpress']
+      technologies: ['HTML/CSS', 'JavaScript', 'Wordpress'],
+      url: "https://persianparade.com/"
     }
   };
 
@@ -75,6 +78,7 @@ export interface Project {
   description: string;
   repo?: string;
   images?: string[];
+  url?: string;
   technologies?: string[];
   // Add other attributes as needed
 }
