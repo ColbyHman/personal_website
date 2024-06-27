@@ -34,7 +34,7 @@ export class ProjectService {
       images: ['assets/images/placecard.png']
     },
     'mirrulations': {
-      title: 'Mirrulations',
+      title: 'Mirrulations',  
       tagline: 'A backup of regulations.gov!',
       description: 'This was my senior Capstone class project where we were tasked with downloading all of the documents from regulation.gov - an undertaking that is much more difficult than it sounded. We utilized Python for our frontend and backend - Flask served our web interface and we used Python to create "workers" to download all of their documents with the limited API calls per key we had.',
       technologies: ['Python', 'Jenkins', 'Vagrant'],
