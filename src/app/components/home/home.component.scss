@@ -34,14 +34,28 @@ body {
       color: #4062BB;
     }
   }
-
   mat-card {
     background-color: #fff;
     width: 75%;
     padding: 25px;
   }
 
-
+  @media screen and (max-width: 600px) {
+    .about-me, .projects {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #18181E;
+      a {
+        color: #4062BB;
+      }
+    }
+    mat-card {
+      background-color: #fff;
+      width: 100%;
+      text-align: center;
+    }
+  }
   
   footer {
     background-color: #453D34;
