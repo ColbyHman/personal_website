@@ -61,7 +61,7 @@ export class ProjectService {
     'persian-parade': {
       title: 'Persian Parade Website',
       tagline: 'A grand time for all!',
-      description: 'My in-laws were born and raised in Iran. Since 2004, my father-in-law has helped lead the NYC Persian Parade and I\'ve been given the responsibility of maintaining their website. I took on this task with great passion because I could tell it needed a lot of TLC',
+      description: 'My in-laws were born and raised in Iran. Since 2004, my father-in-law has helped lead the NYC Persian Parade and I\'ve taken on the responsibility of maintaining their website. I took on this task with great passion because I could tell it needed a lot of TLC',
       technologies: ['HTML/CSS', 'JavaScript', 'Wordpress'],
       url: "https://persianparade.com/"
     }

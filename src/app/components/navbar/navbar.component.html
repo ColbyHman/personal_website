@@ -2,7 +2,6 @@
     <ul class="nav-list">
       <li><a routerLink="/" routerLinkActive="active">Home</a></li>
       <li><a routerLink="/about" routerLinkActive="active">About</a></li>
-      <!-- <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li> -->
 
       <li class="dropdown" (mouseenter)="toggleDropdownOne()" (mouseleave)="toggleDropdownOne()">
         <a routerLink="/projects">Projects</a>
@@ -21,7 +20,6 @@
         <div *ngIf="showDropdownTwo" class="dropdown-content">
           <a routerLink="/fun-stuff/3d-printing">3D Printing</a>
           <a routerLink="/fun-stuff/home-improvement">Home Improvement</a>
-          <!-- <a routerLink="/fun-stuff/dtd">Delta Tau Delta</a> -->
         </div>
       </li>
     </ul>
