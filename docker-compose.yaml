@@ -9,3 +9,4 @@ services:
     ports:
       - 8080:80
     container_name: personal_site
+    restart: unless-stopped
