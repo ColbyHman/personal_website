@@ -31,7 +31,7 @@ jobs:
         env:
           AWS_S3_BUCKET: hillman-personal-site
           AWS_REGION: us-east-1
-          SOURCE_DIR: ./dist
+          SOURCE_DIR: ./personal_website/browser
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
